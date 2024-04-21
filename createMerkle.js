@@ -9,7 +9,7 @@ const values = [
 
 // (2)
 const tree = StandardMerkleTree.of(values, ["address", "uint256"]);
-
+export default tree;
 // (3)
 console.log('Merkle Root:', tree.root);
 
